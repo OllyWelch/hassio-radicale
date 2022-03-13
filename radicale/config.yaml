@@ -11,3 +11,5 @@ arch:
   - i386
 init: false
 image: "ghcr.io/ollywelch/{arch}-hassio-radicale"
+ports:
+  5232/tcp: 5232
