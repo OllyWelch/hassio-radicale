@@ -1,0 +1,13 @@
+name: Radicale
+version: "3.1.5"
+slug: radicale
+description: A simple calendar server for Home Assistant
+url: "https://github.com/OllyWelch/hassio-radicale"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+# image: "ollywelch/radicale-{arch}"
