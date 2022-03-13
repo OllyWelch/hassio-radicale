@@ -1,7 +1,7 @@
 name: Radicale
 version: "3.1.5"
 slug: radicale
-description: A simple calendar server for Home Assistant
+description: "A simple calendar server for Home Assistant"
 url: "https://github.com/OllyWelch/hassio-radicale"
 arch:
   - armhf
@@ -13,3 +13,5 @@ init: false
 image: "ghcr.io/ollywelch/{arch}-hassio-radicale"
 ports:
   5232/tcp: 5232
+ports_description:
+  5232/tcp: "Radicale server tcp-listen port"
