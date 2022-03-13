@@ -20,6 +20,7 @@ RUN apk add --no-cache --virtual=build-dependencies \
         libffi-dev \
         python3-dev \
     && apk add --no-cache \
+        apache2-utils \
         curl \
         git \
         openssh \
