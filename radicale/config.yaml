@@ -14,4 +14,6 @@ image: "ghcr.io/ollywelch/{arch}-hassio-radicale"
 ports:
   5232/tcp: 5232
 ports_description:
-  5232/tcp: "Radicale server tcp-listen port"
+  5232/tcp: "Radicale server port"
+ingress: true
+ingress_port: 5232
