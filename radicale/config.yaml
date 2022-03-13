@@ -15,5 +15,11 @@ ports:
   5232/tcp: 5232
 ports_description:
   5232/tcp: "Radicale server port"
-ingress: true
-ingress_port: 5232
+options:
+  users:
+    - username: radicale
+      password: radicale
+schema:
+  users:
+    - username: str
+      password: str
