@@ -10,4 +10,4 @@ arch:
   - amd64
   - i386
 init: false
-# image: "ollywelch/radicale-{arch}"
+image: "ghcr.io/ollywelch/{arch}-hassio-radicale"

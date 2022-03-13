@@ -10,4 +10,4 @@ labels:
   org.opencontainers.image.source: "https://github.com/OllyWelch/hassio-radicale"
   org.opencontainers.image.licenses: "Apache License 2.0"
 args:
-  TEMPIO_VERSION: "2021.09.0"
+  VERSION: "3.1.5"
