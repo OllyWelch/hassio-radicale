@@ -1,6 +1,6 @@
-# Home Assistant Add-on: Example add-on
+# Home Assistant Add-on: Radicale
 
-_Example add-on to use as a blueprint for new add-ons._
+_A simple calendar server for Home Assistant_
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
