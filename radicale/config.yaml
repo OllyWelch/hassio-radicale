@@ -23,5 +23,3 @@ schema:
   users:
     - username: str
       password: str
-ingress: true
-ingress_port: 5232
