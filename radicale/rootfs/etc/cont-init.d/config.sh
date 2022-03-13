@@ -14,9 +14,10 @@ if [ ! -e "${usersfile}" ] ; then
     bashio::log.info "Creating users file..."
     touch "${usersfile}"
     bashio::log.info "User file created"
-    
 else
-    bashio::log.info "User file exists."
+    bashio::log.info "User file exists, recreating."
+    rm "${usersfile}"
+    touch "${usersfile}"
 fi
 
 for user in $(bashio::config 'users|keys'); do
