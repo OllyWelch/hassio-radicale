@@ -4,6 +4,15 @@
 # s6-overlay docs: https://github.com/just-containers/s6-overlay
 # ==============================================================================
 
+bashio::log.info "Checking users file exists..."
+if [ ! -e "/data/users" ] ; then
+    bashio::log.info "Creating users file..."
+    touch "/data/users"
+    bashio::log.info "User file created"
+else
+    bashio::log.info "User file exists."
+fi
+
 bashio::log.info "Starting the radicale server..."
 
 exec radicale --config /etc/radicale.conf
