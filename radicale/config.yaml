@@ -2,7 +2,7 @@ name: Radicale
 version: "3.1.5"
 slug: radicale
 description: "A simple calendar server for Home Assistant"
-url: "https://github.com/OllyWelch/hassio-radicale"
+url: "https://github.com/ollywelch/hassio-radicale"
 arch:
   - armhf
   - armv7
@@ -23,3 +23,4 @@ schema:
   users:
     - username: str
       password: str
+webui: https://[HOST]:[PORT:5232]
