@@ -23,4 +23,4 @@ schema:
   users:
     - username: str
       password: str
-webui: https://[HOST]:[PORT:5232]
+webui: http://[HOST]:[PORT:5232]
